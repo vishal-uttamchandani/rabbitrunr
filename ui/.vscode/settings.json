@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.cursorStyle": "line",
+    "editor.wordWrap": "on",
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": false,
+    "editor.renderLineHighlight":"none",
+    "terminal.integrated.fontSize": 20,
+    "editor.fontSize": 22,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Monaco, Consolas, 'Courier New'",
+    "editor.mouseWheelZoom": true,
+    "editor.letterSpacing": 1,
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    }
+}

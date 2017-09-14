@@ -1,0 +1,5 @@
+docker pull rabbitmq:3-management-alpine
+docker pull vuttamchandani/runr
+docker pull vuttamchandani/publisher
+docker pull vuttamchandani/consumer
+docker run -d -p 5000:5000 -v /var/run/docker.sock:/var/run/docker.sock --name runr -e "rbmq-memory=500MB" vuttamchandani/runr
